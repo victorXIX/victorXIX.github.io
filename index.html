@@ -6,24 +6,9 @@
         <script type="text/javascript" src="../d3/d3.v3.js"></script>
     </head>
     <body>
+    	<p> yo </p>
         <script type="text/javascript">
-            //d3.select("body").append("p").text("New paragraph ta mère!")
-        
-        	var dataset = [ 5, 10, 15, 20, 25 ];
-        	var f = function(d) {return d*d;};
-        	var g = function(d) {
-        			if (f(d)>100) {
-        				return "red"}
-        			else {
-        				return "black"}
-        			}
-        	d3.select("body").selectAll("p")
-    			.data(dataset)
-   				.enter()
-    			.append("p")
-    			.text(f)
-    			.style("color", g);
-    	//text prend une fonction en argument   
+            // Your beautiful D3 code will go here
         </script>
     </body>
 </html>
