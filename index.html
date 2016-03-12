@@ -18,12 +18,14 @@
         			else {
         				return "black"}
         			}
+        			
+        			
         	d3.select("body").selectAll("p")
     			.data(dataset)
    				.enter()
     			.append("p")
     			.text(f)
-    			.style("color", g);
+    			.style("color", g); //g fonction de couleur
     	//text prend une fonction en argument   
         </script>
     </body>
